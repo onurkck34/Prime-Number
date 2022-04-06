@@ -6,5 +6,4 @@ for x in range(2,sayi):
         break
 if asalMi:  
     print("ASAL")
-else:
-    print("ASAL DEGIL")
+
