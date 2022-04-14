@@ -1,10 +1,10 @@
-sayi = int(input("Sayi Giriniz : "))
+sayi = int(input("Enter a Number : "))
 asalMi = True
 for x in range(2,sayi):
     if (sayi % x) == 0:
         asalMi = False
         break
 if asalMi:  
-    print("ASAL")
+    print("PRIME")
 else:
-    print("ASAL DEGIL")
+    print("NOT PRIME")
